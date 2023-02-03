@@ -1,13 +1,13 @@
 import React from "react";
+import Head from "next/head";
 import AppLayout from "../components/AppLayout";
 
 const Profile = () => {
-  const a = "AA";
-  if (a == "AA") {
-    console.log("AAAAA");
-  }
   return (
     <AppLayout>
+      <Head>
+        <title>내 프로필 | NodeBird</title>
+      </Head>
       <div>프로필 페이지</div>
     </AppLayout>
   );
