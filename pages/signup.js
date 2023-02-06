@@ -9,7 +9,7 @@ import styled from "styled-components";
 const ErrorMessage = styled.div`
   color: red;
 `;
-const Signup = ({ setIsLoggedIn }) => {
+const Signup = ({}) => {
   const [id, onChangeId] = useInput("");
   const [nickname, onChangeNickname] = useInput("");
   const [password, onChangePassword] = useInput("");
